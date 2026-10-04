@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dehşetül-Vahşet Tablo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-top: 17px solid rgb(36, 35, 35);
+        margin: 0;
+      }
+
+      h2 {
+        margin-bottom: 15px;
+        color: #000;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        max-width: 800px;
+        background-color: #ffffff;
+      }
+
+      th,
+      td {
+        border: 2px solid #000000;
+        text-align: center;
+        padding: 8px 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Öğrenci Not Tablosu</h1>
+    <table border="1">
+      <tr>
+        <th
+          colspan="5"
+          style="background-color: rgb(48, 22, 249); color: rgb(214, 214, 214)"
+        >
+          2026 - 2027 Öğrenci Notları
+        </th>
+      </tr>
+
+      <tr>
+        <th
+          rowspan="2"
+          style="
+            background-color: rgb(32, 30, 30);
+            color: rgb(214, 214, 214);
+            vertical-align: bottom;
+            text-align: left;
+          "
+        >
+          Öğrenci
+        </th>
+        <th
+          colspan="2"
+          style="background-color: rgb(32, 30, 30); color: rgb(214, 214, 214)"
+        >
+          1. Dönem
+        </th>
+        <th
+          colspan="2"
+          style="background-color: rgb(32, 30, 30); color: rgb(214, 214, 214)"
+        >
+          2. Dönem
+        </th>
+      </tr>
+
+      <tr>
+        <th
+          style="background-color: rgb(32, 30, 30); color: rgb(214, 214, 214)"
+        >
+          Vize
+        </th>
+        <th
+          style="background-color: rgb(32, 30, 30); color: rgb(214, 214, 214)"
+        >
+          Final
+        </th>
+        <th
+          style="background-color: rgb(32, 30, 30); color: rgb(214, 214, 214)"
+        >
+          Vize
+        </th>
+        <th
+          style="background-color: rgb(32, 30, 30); color: rgb(214, 214, 214)"
+        >
+          Final
+        </th>
+      </tr>
+
+      <tr>
+        <td style="text-align: left">Ahmet</td>
+        <td>70</td>
+        <td>80</td>
+        <td>75</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Ayşe</td>
+        <td>85</td>
+        <td>90</td>
+        <td>80</td>
+        <td>95</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Mehmet</td>
+        <td>60</td>
+        <td>65</td>
+        <td>70</td>
+        <td>75</td>
+      </tr>
+      <tr style="background-color: lightblue">
+        <td style="text-align: left">Zeynep</td>
+        <td>95</td>
+        <td>100</td>
+        <td>90</td>
+        <td>100</td>
+      </tr>
+      <tr style="background-color: rgb(6, 67, 136); color: rgb(214, 214, 214)">
+        <td colspan="4" style="text-align: right">Sınıf Ortalaması</td>
+        <td>84</td>
+      </tr>
+    </table>
+  </body>
+</html>
